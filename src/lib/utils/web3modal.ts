@@ -21,8 +21,8 @@ export const projectId = import.meta.env.VITE_WALLETCONNECT_PROJECT_ID;
 const metadata = {
 	name: 'sample-primary-sales',
 	description: 'Sample Primary Sales',
-	url: 'https://skelekit-wagmiconnect.vercel.app/',
-	icons: ['https://avatars.githubusercontent.com/u/37784886']
+	url: 'https://sample-ps-frontend.vercel.app/',
+	icons: ['https://sample-ps-frontend.vercel.app/favicon.svg']
 };
 
 // export const chains = [immutableZkEvm, immutableZkEvmTestnet] as const;
