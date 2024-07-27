@@ -78,7 +78,7 @@
   </div>
 {/if}
 
-<div class="flex flex-row gap-2 w-[360px] mt-2 mx-auto">
+<div class="flex flex-row gap-2 w-[360px] mx-auto">
   <MintPublic />
   <MintWL />
 </div>
