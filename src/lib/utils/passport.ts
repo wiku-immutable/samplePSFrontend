@@ -9,8 +9,8 @@ export const passportInstance = new passport.Passport({
 		publishableKey: PUBLISHABLE_KEY
 	},
 	clientId: CLIENT_ID,
-	redirectUri: 'http://localhost:5173/redirect',
-	logoutRedirectUri: 'http://localhost:5173',
+	redirectUri: 'https://sample-ps-frontend.vercel.app/redirect',
+	logoutRedirectUri: 'https://sample-ps-frontend.vercel.app',
 	audience: 'platform_api',
 	scope: 'openid offline_access email transact'
 });
