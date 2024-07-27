@@ -9,7 +9,7 @@
   <h1 class="h1 font-bold text-center pb-4">Sample Primary Sale</h1>
   <!-- <h2 class="h3 font-bold text-center">Immutable zkEVM TESTNET</h2> -->
   <div
-    class="flex justify-center items-center py-2 gap-3 font-semibold text-lg"
+    class="flex justify-center items-center pb-2 gap-3 font-semibold text-lg"
   >
     <a
       href="https://github.com/wiku-immutable/samplePSFrontend"
@@ -32,7 +32,7 @@
 </div>
 
 <div
-  class="my-2 text-center justify-center card m-auto w-[320px] bg-primary-500"
+  class="my-2 text-center justify-center card m-auto w-[280px] bg-primary-500"
 >
   <section class="p-2">
     <img
@@ -44,7 +44,7 @@
 </div>
 <!-- <div class="text-lg py-2 text-center w-[400px] mx-auto font-bold">Remaining supply: 1000</div> -->
 
-<div class="text-sm py-2 w-[400px] mx-auto font-medium">
+<div class="text-sm py-2 w-[360px] mx-auto font-medium">
   <a
     href="https://explorer.testnet.immutable.com/address/0xba01c1efb4e1591f030d089cc6dfef9645bce04f"
     target="_blank"
@@ -57,7 +57,7 @@
   </a>
 </div>
 
-<div class="text-sm pb-2 w-[400px] mx-auto font-medium">
+<div class="text-sm pb-2 w-[360px] mx-auto font-medium">
   <a
     href="https://explorer.testnet.immutable.com/address/0x492c0429f64804E2a0CeFd235905D1f2A25e8f17"
     target="_blank"
@@ -72,9 +72,9 @@
 
 {#if !$account.isConnected}
   <div
-    class="card variant-filled-warning my-2 py-2 text-center w-[400px] mx-auto font-semibold"
+    class="card variant-filled-warning my-2 py-2 text-center w-[300px] mx-auto font-semibold"
   >
-    Please connect your wallet to mint
+    Connect your wallet to mint
   </div>
 {/if}
 
