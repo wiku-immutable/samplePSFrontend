@@ -1,0 +1,13 @@
+{
+	"/(home)": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/": [
+		"src/routes/+layout.ts"
+	],
+	"/redirect": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	]
+}

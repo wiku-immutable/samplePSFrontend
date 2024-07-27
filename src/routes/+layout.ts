@@ -1,0 +1,1 @@
+export const ssr = false; // app only runs on client side. Can maybe take out at the end
