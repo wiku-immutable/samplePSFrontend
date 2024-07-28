@@ -1,6 +1,6 @@
-# Sample marketplace for Immutable zkEVM
+# Sample Primary Sales for Immutable zkEVM
 
-Sample code that leverages the Immutable SDK & APIs to create a marketplace for Immutable zkEVM assets.
+Sample frontend to showcase how a primary sale can be performed using Immutable zkEVM.
 
 ## Disclaimer
 
