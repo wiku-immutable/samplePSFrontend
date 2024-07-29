@@ -32,7 +32,6 @@ export const wagmiConfig = createConfig({
 	chains: chains,
 	connectors: [walletConnect({ projectId, metadata, showQrModal: false }), injected()],
 	transports: {
-		[immutableZkEvm.id]: http(),
 		[immutableZkEvmTestnet.id]: http()
 	}
 });
